@@ -23,6 +23,7 @@ html {
   display: flex;
   align-items: center;
   box-shadow: 0.5px 0.5px 5px;
+  
 }
 #navlink a {
   font-size: 1.45rem;
@@ -31,6 +32,7 @@ html {
   transition: 0.3s;
   font-weight: 600;
 }
+
 #navlink a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -44,7 +46,7 @@ html {
   font-size: 3.5rem;
   border: 1.3px solid rgb(214, 210, 210);
   padding: 3px 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   color: gray;
   outline: none;
   text-decoration: none;
@@ -70,7 +72,7 @@ html {
 }
 .card-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 5%;
   margin-top: 3rem;
@@ -81,7 +83,8 @@ html {
 }
 .card {
   width: 35rem;
-  margin: 1rem;
+  margin: 0 1rem;
+  
 }
 /* Count Up */
 
@@ -395,21 +398,6 @@ ion-icon:hover {
   color: aqua;
 }
 
-/* nav2 */
-
-#navmain .navc a {
-  display: block;
-  font-size: 1.5rem;
-  color: #344656;
-  font-weight: 600;
-  cursor: pointer;
-  padding-bottom: 4rem;
-  text-decoration: none;
-  transition: 0.3s;
-}
-#navmain .navc a:hover {
-  color: rgb(0, 162, 255);
-}
 
 /* Media Query */
 
@@ -563,7 +551,6 @@ ion-icon:hover {
     display: block;
     padding-top: 3.5rem;
     color: #344656;
-    transition: 0.4s;
   }
   .header {
     padding: 3rem 4%;
@@ -574,16 +561,26 @@ ion-icon:hover {
  #navlink{
   display: none;
  }
-
+ .card {
+  margin:0;
+}
+.pbc{
+  margin-bottom: 2rem;
+}
+.ptc{
+  margin-top: 3rem;
+}
   .header button {
     border: 1.3px solid rgb(214, 210, 210);
     outline: none;
     width: 56.33px;
-    border-radius: 5px;
+    border-radius: 3px;
   }
   .card-main {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(1,auto);
     justify-content: center;
+    margin: 0;
   }
 
   .card {
