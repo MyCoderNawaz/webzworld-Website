@@ -1,0 +1,621 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 6%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.5px 0.5px 5px;
+}
+#navlink a {
+  font-size: 1.45rem;
+  color: black;
+  margin-left: 4rem;
+  transition: 0.3s;
+  font-weight: 600;
+}
+#navlink a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 162, 255);
+
+}
+.margin {
+  padding: 1.5rem;
+}
+.header button i {
+  font-size: 3.5rem;
+  border: 1.3px solid rgb(214, 210, 210);
+  padding: 3px 10px;
+  border-radius: 5px;
+  color: gray;
+  outline: none;
+  text-decoration: none;
+}
+.header i:hover {
+  background: #dadadb;
+  border: none;
+}
+.card-body {
+  color: white;
+  background-color: rgb(37, 35, 35);
+  padding: 2.5rem;
+}
+.card-title {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.card-text {
+  font-size: 1.5rem;
+}
+.read {
+  font-size: 1.5rem;
+}
+.card-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+  margin-top: 3rem;
+}
+.card-img-top {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  width: 35rem;
+  margin: 1rem;
+}
+/* Count Up */
+
+.countup {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+  opacity: 0;
+}
+
+.countup--is-visible {
+  opacity: 1;
+}
+
+.cd-sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+}
+.counter-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 2rem;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  background-image: linear-gradient(
+    to top right,
+    rgb(5, 41, 111),
+    rgb(7, 7, 45)
+  );
+  color: white;
+}
+.countup {
+  font-size: 7rem;
+  color: rgb(0, 153, 255);
+  font-weight: 600;
+}
+
+/* Our Services */
+.ourservices-main {
+  margin: auto 6%;
+}
+.heading {
+  text-align: center;
+  padding: 3rem;
+  font-weight: 600;
+  font-size: 3rem;
+  color: rgb(10, 10, 135);
+  margin-bottom: 2rem;
+}
+.servicecontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.servicebox {
+  overflow: hidden;
+  position: relative;
+  border-radius: 2rem;
+}
+.servicebox img {
+  width: 100%;
+  transition: 0.5s ease;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+.sbox h2 {
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: 600;
+}
+.details {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: -100%;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.6s;
+}
+.sheading {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.sp {
+  font-size: 16px;
+}
+.servicebox:hover .details {
+  bottom: 0;
+}
+
+.help-main {
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-image: linear-gradient(
+    to top right,
+    rgb(108, 11, 168),
+    rgb(27, 3, 40)
+  );
+  color: white;
+}
+
+.help h1 {
+  margin-bottom: 2rem;
+}
+.help p {
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+.help a {
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.8rem 1.9rem;
+  font-size: 1.5rem;
+}
+.help a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: aliceblue;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.read:hover {
+  text-decoration: none;
+}
+.idea p {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: rgb(5, 144, 251);
+}
+.Ideamain {
+  margin: auto 3.5%;
+}
+
+.imain {
+  margin: 5rem 5%;
+}
+.imain .icontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+}
+.imain .icontainer .ibox img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 2.5rem;
+}
+.imain .icontainer .ibox {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+}
+.iboxh {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.iboxp {
+  font-size: 15px;
+  font-weight: 500;
+}
+.br {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.b {
+  border-bottom: 1px solid black;
+}
+.r {
+  border-right: 1px solid black;
+}
+.imain .icontainer .ibox:hover {
+  box-shadow: 2px 2px 15px black;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.pmain {
+  margin: 6rem 6%;
+}
+.pmain .pcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 0.5rem;
+  justify-content: center;
+}
+.pmain .pcontainer .pbox img {
+  width: 35rem;
+  margin-bottom: 2rem;
+}
+
+.pmain .pcontainer .boxd h2 {
+  text-align: center;
+}
+.boxd {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35rem;
+}
+.heading2 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+  font-size: 3rem;
+  color: rgb(10, 10, 135);
+}
+.pmain .pcontainer .boxd p {
+  font-size: 18px;
+  text-align: center;
+}
+.btn {
+  background: rgb(15, 88, 234);
+  border-radius: 0.35rem;
+  color: white;
+  padding: 0.8rem 1.9rem;
+  font-size: 1.5rem;
+  width: 130px;
+  margin: 1px auto;
+  font-weight: 500;
+}
+.btn:hover {
+  color: white;
+}
+
+/* About Us */
+.amain {
+  padding: 5rem 6%;
+  background: #344656;
+  color: white;
+}
+.acontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.amain .acontainer .abox {
+  padding: 0 4rem;
+}
+.abox a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 0.8rem;
+  font-size: 13px;
+  font-weight: 400;
+}
+.abox h1 {
+  margin-bottom: 2.5rem;
+}
+.abox p {
+  font-size: 14px;
+}
+.aimg {
+  margin-top: 3rem;
+}
+
+.aimg .img1 {
+  margin-right: 30px;
+  width: 98px;
+  height: auto;
+}
+.aimg .img2 {
+  width: 98px;
+  height: auto;
+}
+
+/* Footer */
+.Footer {
+  margin: auto 5%;
+  font-size: 1.5rem;
+  padding: 20px 0px 10px;
+}
+ion-icon {
+  font-size: 4rem;
+  margin-right: 1.5rem;
+}
+ion-icon:hover {
+  color: aqua;
+  cursor: pointer;
+}
+.abox a:hover {
+  color: aqua;
+}
+
+/* nav2 */
+
+#navmain .navc a {
+  display: block;
+  font-size: 1.5rem;
+  color: #344656;
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 4rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+#navmain .navc a:hover {
+  color: rgb(0, 162, 255);
+}
+
+/* Media Query */
+
+@media (max-width: 705px) {
+  .counter-main {
+    display: block;
+  }
+  .counter {
+    padding: 2rem 1rem;
+  }
+  .servicecontainer {
+    grid-template-columns: 1fr;
+  }
+  .heading {
+    font-size: 6rem;
+  }
+  .help h1 {
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+  .help p {
+    font-size: 20px;
+    margin-bottom: 4rem;
+  }
+  .help-main {
+    padding-bottom: 10%;
+  }
+  .help a {
+    font-size: 15px;
+  }
+  .boxd {
+    width: auto;
+  }
+  .idea p {
+    font-size: 2.4rem;
+  }
+  .imain .icontainer {
+    grid-template-columns: 1fr;
+  }
+  .blt {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+  }
+  .bl {
+    border-left: 1px solid black;
+  }
+  .brr {
+    border-right: 1px solid black;
+  }
+  .bb {
+    border-bottom: 1px solid black;
+  }
+  .pmain .pcontainer {
+    grid-template-columns: 1fr;
+  }
+  .pmain .pcontainer .pbox img {
+    width: 100%;
+  }
+  .abox {
+    margin-bottom: 6rem;
+  }
+  .amain {
+    min-height: 120vh;
+  }
+  .acontainer {
+    display: block;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1065px) and (min-width: 1000px) {
+  .pmain .pcontainer .pbox img {
+    width: 32rem;
+  }
+  .boxd {
+    width: 32rem;
+  }
+  .pmain .pcontainer .boxd p {
+    font-size: 15px;
+  }
+  
+}
+@media screen and (max-width: 1000px) and (min-width: 705px) {
+  .servicecontainer {
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .imain .icontainer {
+    grid-template-columns: repeat(2, 3fr);
+  }
+  .blt {
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+  }
+  .brr {
+    border-right: 1px solid black;
+  }
+  .bl {
+    border-left: 1px solid black;
+  }
+  .bb {
+    border-bottom: 1px solid black;
+  }
+  .btop {
+    border-top: 1px solid black;
+  }
+  .counter-main {
+    display: block;
+  }
+  .counter {
+    padding: 2rem 1rem;
+  }
+  .imain .icontainer .ibox img {
+    width: 8rem;
+    height: 7rem;
+  }
+  ion-icon {
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+  }
+  .pmain .pcontainer .pbox img {
+    width: 22rem;
+  }
+  .pmain .pcontainer .boxd h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .pmain .pcontainer .boxd p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .heading2 {
+    padding-top: 0.5rem auto;
+    font-size: 1.7rem;
+  }
+  .btn {
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    width: 100px;
+  }
+  .pmain .pcontainer {
+    /* grid-template-columns: repeat(3, 2fr); */
+    gap: 1rem;
+    align-items: center;
+  }
+  .boxd {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #navlink a {
+    display: block;
+    padding-top: 3.5rem;
+    color: #344656;
+    transition: 0.4s;
+  }
+  .header {
+    padding: 3rem 4%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    box-shadow: 0.3px 0.3px 3px;
+  }
+ #navlink{
+  display: none;
+ }
+
+  .header button {
+    border: 1.3px solid rgb(214, 210, 210);
+    outline: none;
+    width: 56.33px;
+    border-radius: 5px;
+  }
+  .card-main {
+    display: block;
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .card img {
+    width: 100%;
+    height: 100%;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 400;
+  }
+  .card-text {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .read {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1143px) {
+  .ourservices-main {
+    margin: auto 3%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header i {
+    display: none;
+  }
+}

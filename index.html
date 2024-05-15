@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology Consulting Software</title>
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><img src="logo.jpeg" alt="" /></a>
+
+      <button onclick="shownav()">
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </button>
+
+      <nav id="navlink">
+        <a href="#">WHO WE ARE</a>
+        <a href="#">SERVICES</a>
+        <a href="#">SOLUTIONS</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </nav>
+    </header>
+    <!-- navbar2 -->
+
+    <!-- <div id="navmain">
+      <div class="navc">
+        <a href="#">WHO WE ARE</a>
+        <a href="#">SERVICES</a>
+        <a href="#">SOLUTIONS</a>
+        <a href="#">BLOG</a>
+        <a href="#">CONTACT</a>
+      </div>
+    </div> -->
+
+    <!-- slide code -->
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 margin" src="1.jpeg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 margin" src="2.jpeg" alt="Second slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 margin" src="3.jpeg" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 margin" src="4.jpeg" alt="Third slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 margin" src="5.jpeg" alt="Third slide" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- Card -->
+    <div class="card-main">
+      <div class="card">
+        <img class="card-img-top" src="card1.jpeg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Crafting Digital Success: Website Design Artistry
+          </h5>
+          <p class="card-text">
+            Your website is often the first point of contact with potential
+            customers, making it a critical asset for success. At Webzworld, we
+            understand the importance of making a lasting impression in the
+            virtual world.
+          </p>
+          <a href="#" class="read">Read More +</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="card2.jpeg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Microsoft Office 365 Emails: A Business Necessity
+          </h5>
+          <p class="card-text">
+            Microsoft Office 365, particularly its email services, plays a
+            pivotal role in ensuring seamless and efficient communication within
+            organizations. explore why Office 365 emails are crucial for
+            businesses of all sizes..
+          </p>
+          <a href="#" class="read">Read More +</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="card3.jpeg" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title">
+            Google Workspace Emails: Enhancing Collaboration
+          </h5>
+          <p class="card-text">
+            Google Workspace, formerly known as G Suite, offers a suite of tools
+            designed to enhance productivity and streamline communication.
+            explore the significance of Google Workspace emails.
+          </p>
+          <a href="#" class="read">Read More +</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Counter -->
+    <div class="counter-main">
+      <div class="counter">
+        <h1 class="countup"><span class="js-countup">23</span>+</h1>
+        <p>Successful Years</p>
+      </div>
+      <div class="counter">
+        <h1 class="countup"><span class="js-countup">900</span>+</h1>
+        <p>Projects Completed</p>
+      </div>
+      <div class="counter">
+        <h1 class="countup"><span class="js-countup">3000</span>+</h1>
+        <p>Satisfied Clients</p>
+      </div>
+    </div>
+
+    <!-- Our Services -->
+
+    <div class="ourservices-main">
+      <h1 class="heading">Our Services</h1>
+      <div class="servicecontainer">
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box1.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">Technology Consulting</h2>
+              <p class="sp">
+                Technology Consulting is the process of advising businesses on
+                how to best use technology and software.
+              </p>
+            </div>
+          </div>
+          <h2>Technology Consulting</h2>
+        </div>
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box2.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">IS & IT Audit</h2>
+              <p class="sp">
+                We help you with IS & IT audit which is the examination and
+                evaluation of an organization's IT and operations.
+              </p>
+            </div>
+          </div>
+          <h2>IS & IT Audit</h2>
+        </div>
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box3.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">Software Development</h2>
+              <p class="sp">
+                Software Development is a set of computer science activities
+                dedicated to the process of creating software.
+              </p>
+            </div>
+          </div>
+          <h2>Software Development</h2>
+        </div>
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box4.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">Web App Development</h2>
+              <p class="sp">
+                We develop customise web application as per your companies
+                requirement
+              </p>
+            </div>
+          </div>
+          <h2>Web App Development</h2>
+        </div>
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box5.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">App Development</h2>
+              <p class="sp">
+                Mobile App Development refers to the creation of computer
+                applications for use on mobile devices such as tablets,
+                smartphones.
+              </p>
+            </div>
+          </div>
+          <h2>Mobile App Development</h2>
+        </div>
+        <div class="sbox">
+          <div class="servicebox">
+            <img src="box6.jpeg" alt="" />
+            <div class="details">
+              <h2 class="sheading">Website Designing</h2>
+              <p class="sp">
+                We design and maintain complex e-commerce & database driven
+                sites.
+              </p>
+            </div>
+          </div>
+          <h2>Website Designing</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- Need Help Section -->
+    <div class="help-main">
+      <div class="help">
+        <h1>Need Some Help?</h1>
+        <p>Schedule a consultation with our experts.</p>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Idea Section -->
+    <div class="Ideamain">
+      <div class="idea">
+        <h1 class="heading">Our Ideas Your Success</h1>
+        <p>
+          With the experience of over 23 years, our ideas & implementation
+          methods would assure that success follows you. We understand & prepare
+          a customized solution instead of selling you a product. Our services
+          are part of the solution.
+        </p>
+      </div>
+    </div>
+
+    <!-- Idea Section box-->
+    <div class="imain">
+      <div class="icontainer">
+        <div class="ibox br blt">
+          <img src="Analysis.png" alt="" />
+          <h1 class="iboxh">Analysis</h1>
+          <p class="iboxp">
+            We would understand and analyse your business by putting our foot in
+            your shoes.
+          </p>
+        </div>
+        <div class="ibox br bl btop">
+          <img src="Setting_up_Systems.png" alt="" />
+          <h1 class="iboxh">Setting Systems</h1>
+          <p class="iboxp">
+            We would setup a framework for each aspect of your business and
+            ensure it is executed correctly.
+          </p>
+        </div>
+        <div class="ibox b bl brr">
+          <img src="Creative_Solution.png" alt="" />
+          <h1 class="iboxh">Creative Solution</h1>
+          <p class="iboxp">
+            No two business would have the same solution . We give unique
+            creative solution.
+          </p>
+        </div>
+        <div class="ibox r bl bb">
+          <img src="Fail_Forward.png" alt="" />
+          <h1 class="iboxh">Fail Forward</h1>
+          <p class="iboxp">
+            Nothing is perfect at the start. We would build on our system,
+            filter it periodically to get it to optimum.
+          </p>
+        </div>
+        <div class="ibox r bl bb">
+          <img src="Keep_Improving.png" alt="" />
+          <h1 class="iboxh">Keep Improving</h1>
+          <p class="iboxp">
+            We have framework's which will keep on improving everyday.
+          </p>
+        </div>
+        <div class="ibox bl brr bb">
+          <img src="Live_Chat_Support.png" alt="" />
+          <h1 class="iboxh">Live Chat Support</h1>
+          <p class="iboxp">
+            Easily configurable with your popular CMS platform - WordPress,
+            Joomla, OpenCart & many more.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project Section -->
+    <div class="pmain">
+      <div class="pcontainer">
+        <div class="pbox">
+          <img src="download-18-1-1024x1024.png" alt="" />
+        </div>
+        <div class="boxd">
+          <h2>COMPLETED PROJECTS</h2>
+          <h1 class="heading2">Our Recent Portfolio</h1>
+          <p>
+            Our web design and development services are your key to a stronger
+            online presence. We boast an expert team dedicated to crafting
+            contemporary, visually appealing websites that mirror your brand
+            identity.
+          </p>
+          <a href="#" class="btn">Contact Us</a>
+        </div>
+        <div class="pbox">
+          <img src="download-11-1024x1024.png" alt="" />
+        </div>
+        <div class="pbox">
+          <img src="download-16-1024x1024.png" alt="" />
+        </div>
+        <div class="pbox">
+          <img src="download-12-1024x1024.png" alt="" />
+        </div>
+        <div class="pbox">
+          <img src="download-14-1024x1024.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us -->
+
+    <div class="amain">
+      <div class="acontainer">
+        <div class="abox">
+          <h1>About Webzworld</h1>
+          <p>
+            Nothing is perfect at the start. We would build <br />on our system,
+            filter it periodically <br />
+            to get it to optimum.
+          </p>
+          <p>
+            We have framework's which help you in <br />improving your results.
+          </p>
+          <div class="aimg">
+            <img src="Untitled-23jpg.jpg" alt="" class="img1" />
+            <img src="Untitled-2.png" alt="" class="img2" />
+          </div>
+        </div>
+        <div class="abox">
+          <h1>Quick Links</h1>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Technology Consulting</a>
+          <a href="#">IS/IT Audit</a>
+          <a href="#">Software Development</a>
+          <a href="#">Website Designing</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+        </div>
+
+        <div class="abox">
+          <h1>Social Media</h1>
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="Footer">
+      <div class="footer2">
+        <p>Copyright © 2023 Webzworld. All Rights Reserved.</p>
+        <p>
+          This Website Created by Shaikh Shahnawaz Contact Me +91 7275792011
+          Email-(shekhshahnawaj2@gmail.com)
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
